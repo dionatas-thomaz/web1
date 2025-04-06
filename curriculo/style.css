@@ -1,51 +1,103 @@
 
-.conteiner2{
-display: flex;
+body {
+  font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+.conteiner{
+  width: 100%;
+  height: 100%;
+}
+.conteiner1{
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 .cabeca{
+  width: 320px;
+  height: 102.2vh;
     text-align: center;
+    background-color: black;
 }
 .perfil{
-    width: 250px;
-    height: 300px;
+    height: 200px;
     justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
- 
+    padding-top: 10px;
 }
 .fotoperfil{
     width: 250px;
     height: 200px;
 }
 .dadosloc{
-margin-top: 50px;
 width: 310px;
-height: 300px;
-background-color: blue;
+height: 100%;
+color: white;
 }
-.experiencia{
-margin-left: 30px;
-}
-.Sobre_mim ,.experiencia{
+.Sobre_mim,.experiencia1,.experiencia2,.experiencia3{
  border-radius: 5px;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
  padding-left: 10px;
+ font-size: 14px;
 }
 .Sobre_mim{
-width: 800px;
-height: 200px;
 
+height: 210px;
+background-color: white;
+
+}
+.experiencia1,.experiencia2,.experiencia3{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 .conteiner_dados{
    padding-left: 15px;
 }
-.experiencia{
-    width: 400px;
+
+.contsobre{
+    background-color: #1e1e1e;
+    padding: 10px;
+    height: 100%;
+    width: 705px;
 }
-.descri{
-    
+ul {
+  list-style: none;
+  padding: 0;
 }
-.estic{
-    height: 200px;
+
+li {
+  margin: 12px 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(189, 179, 179);   
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+}
+
+a i {
+  margin-right: 10px;
+}
+.contact {
+  line-height: 2;
+  color: #fff;
+  text-align: left;
+}
+.contact h3, .DevOps {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+}
+.contact p {
+  margin: 5px 0;
+}
+.icon {
+  margin-right: 10px;
+}
+.dadosinf,h5{
+  color: #f0f0f0;
 }
